@@ -7,11 +7,11 @@
     document.body.appendChild(scr);
 })(function($) {
     $('img')
-        .attr('src', 'http://bit.ly/36oKggr')
+        .attr('src', 'https://bit.ly/36oKggr')
         .hover(function(){
             var rand = Math.floor( Math.random()*2);
             for (var i = 0; i<=rand; i++) {
-                $('body').after('<img src="http://bit.ly/2P3SrJn" class="mouse" style="position: absolute; width:70px; top: -50px; left:-50px; z-index: 99999;">');
+                $('body').after('<img src="https://bit.ly/2P3SrJn" class="mouse" style="position: absolute; width:70px; top: -50px; left:-50px; z-index: 99999;">');
             }
 
             var offset = $(this).offset();
